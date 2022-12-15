@@ -36,7 +36,7 @@
             <a href="../about/about.html" class="nav-link" role="button" data-bs-hover="dropdown" aria-expanded="false">About<i class=" ms-2 bi bi-chevron-down"></i></a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="../about/about.html">Our Story</a></li>
-              <li><a class="dropdown-item" href="../about/about.html/#our-team">Our Team</a></li>
+              <li><a class="dropdown-item" href="../about/about.html#our-team">Our Team</a></li>
               <li><a class="dropdown-item" href="../about/contact-us.html">Contact Us</a></li>
             </ul>
 
@@ -53,19 +53,30 @@
   <!-- banner -->
   <div class="container-fluid type-dog-banner p-5">
     <div class="row">
-      <div class="col-12 col-md type-header-img d-flex flex-row">
+      <div class="col-12 col-md-5 type-header-img d-flex flex-row">
         <img src="img/dogs/type-header-dog.png" alt="photo of a dog">
       </div>
-      <div class="col-12 col-md my-auto type-header-text">
+      <div class="col-12 col-md-7 my-auto type-header-text">
         <h1 class="display-4"><span class="type-header-span">Home</span> is where the dog is.</h1>
         <p class="lead">Meet our adoptable dogs</p>
       </div>
     </div>
   </div>
 
-  <main class="container-fluid px-0 pb-0">
+  <main class="container-fluid px-0 pb-5">
+    <!-- breadcrumbs -->
+    <nav class=" adopt-breadcrumb" aria-label="breadcrumb">
+      <ol class="breadcrumb adopt-breadcrumb">
+        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="adopt.html">Adopt</a></li>
+        <li class="breadcrumb-item active post" aria-current="page">Adoptable Dogs</li>
+        <li class="breadcrumb-item"><a href="adoption-process.html">Adoption Process</a></li>
+        <li class="breadcrumb-item"><a href="adoption-process.html">Adoption Application</a></li>
+      </ol>
+
+    </nav>
     <!-- search filters -->
-    <div class="container-fluid text-center pt-5 pb-3 ">
+    <div class="container-fluid text-center pt-1 pb-3 ">
       <div class="row mt-3">
         <div class="col">
           <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
@@ -104,10 +115,12 @@
     </div>
     <!-- pet cards -->
     <div class="pet-gallery container-fluid p-2">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mx-0">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mx-0 pb-5">
         <!-- pet card -->
         <div class="col">
+
           <div class="card px-3 bg-white pet-card px-0 mx-auto">
+            <h6 class="featured-pet-bg px-3 py-2">Featured</h6>
             <h4 class="card-title text-center mt-2">Duke</h4>
             <img src="img/dogs/duke-adult.png" class="card-img-top" alt="dog outside looking at camera">
             <div class="card-body p-0 ">
@@ -260,7 +273,7 @@
           <img id="footer-logo" class="ms-0 align-self-center" src="../assets/logo-blk.png" alt="Fur Friends Logo"/>
           <div class=" d-flex flex-row align-items-center mt-2 footer-quick-links">
             <ul class="list-unstyled mt-2 d-flex flex-row">
-              <li class="me-2"><h5><a href="#" class="text-decoration-none">Adopt</a></h5></li>
+              <li class="me-2"><h5><a href="adopt.html" class="text-decoration-none">Adopt</a></h5></li>
               <li class="me-2"><h5><a href="../volunteer/volunteer.html" class="text-decoration-none">Volunteer</a></h5></li>
               <li class="me-2"><h5><a href="../about/about.html" class="text-decoration-none">About</a></h5></li>
               <li><h5><a href="../news/news.html" class="text-decoration-none">News</a></h5></li>
@@ -269,7 +282,7 @@
         </div>
 
         <div class="row d-flex flex-column align-items-center">
-          <h5 class="mb-2 fw-bold text-center">Contact</h5>
+          <h5 class="mb-2 fw-bold text-center"><a href="../about/contact-us.html">Contact</a></h5>
           <ul class="list-unstyled d-flex flex-column align-items-start">
             <li><i class="bi bi-telephone me-3"></i>802-878-1758</li>
             <li class="mt-1"><i class="bi bi-envelope me-3"></i>adopt@furfriends.org</li>

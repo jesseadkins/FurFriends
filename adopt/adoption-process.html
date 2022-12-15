@@ -9,7 +9,7 @@
 
 <body>
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg sticky-top bg-white">
+  <nav class="navbar navbar-expand-lg sticky-top bg-white top-nav-process">
   <div class="container-fluid">
     <a class="navbar-brand" href="../index.html">
       <img src="../assets/logo-blk.png" height="45" alt="Fur Friends Logo">
@@ -36,7 +36,7 @@
           <a href="../about/about.html" class="nav-link" role="button" data-bs-hover="dropdown" aria-expanded="false">About<i class=" ms-2 bi bi-chevron-down"></i></a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="../about/about.html">Our Story</a></li>
-            <li><a class="dropdown-item" href="../about/about.html/#our-team">Our Team</a></li>
+            <li><a class="dropdown-item" href="../about/about.html#our-team">Our Team</a></li>
             <li><a class="dropdown-item" href="../about/contact-us.html">Contact Us</a></li>
           </ul>
 
@@ -49,71 +49,95 @@
     </div> <!-- end nav links container -->
   </div> <!-- end navbar container -->
 </nav>
+
   <!-- banner -->
-  <div class="container-fluid py-5">
-    <div class="row process-banner mx-auto">
-      <div class="col process-header-img my-auto text-center">
-        <img src="img/adoption-process-header.png" class="img-fluid" >
+  <div class="container-fluid py-5 process-banner ">
+    <div class="row mx-auto text-center">
+      <div class="my-auto ">
+        <img src="../assets/adopt-icon.svg" class="img-fluid mt-3">
       </div><!-- /.col -->
-      <div class="col header-text my-auto">
-        <h1 class="display-4">Ready to jump in paws first?</h1>
+      <div class="my-auto">
+        <h1 class="display-4 my-3">Ready to jump in paws first?</h1>
+        <div class="d-flex flex-row align-items-center justify-content-center process-header-text mb-2">
+          <div class="num align-items-center justify-content-center"><p class="lead my-auto"><i class="bi bi-check-lg"></i></p></div>
+          <p class="lead my-auto ms-3">Read through our <a href="#procress">Process</a>, <a href="#policy">Policies</a>, <a href="#fees">Fees</a> &amp; <a href="#faq">FAQs</a></p>
+        </div>
+        <div class="d-flex align-items-center justify-content-center process-header-text">
+          <div id="process-num" class="num  align-items-center justify-content-center"><p class="lead my-auto"><i class="bi bi-check-lg"></i></p></div>
+          <p class="lead my-auto ms-3">Fill out our <a href="#">Adoption application</a></p>
+        </div>
       </div> <!-- /.col -->
     </div> <!-- /.row -->
   </div> <!-- /.container -->
 
-  <main class="container-fluid px-0 ">
+  <main class="container-fluid px-0 mt-5">
 
-    <!-- process -->
-    <div id="process" class="container-fluid pb-5 pt-3 bg-white">
-      <div class="row ">
-          <ul class="list-unstyled lead d-flex justify-content-center process-nav">
+    <div class="container-fluid bg-white sticky-top p-2 process-nav text-center">
+      <!-- breadcrumbs -->
+
+<!--      <div class="row bg-white ">-->
+<!--        <ul class="list-unstyled lead d-flex justify-content-center ">-->
+<!--          <li class="pe-2"><a href="#process">Process</a></li>-->
+<!--          <li class="pe-2"><a href="#policy">Policy</a></li>-->
+<!--          <li class="pe-2"><a href="#fees">Fees</a></li>-->
+<!--          <li><a href="#faq">FAQ</a></li>-->
+<!--        </ul>-->
+<!--      </div>-->
+<!--    </div>-->
+
+        <div class="row bg-white ">
+          <ul class="list-unstyled lead d-flex justify-content-center ">
             <li class="pe-2"><a href="#process">Process</a></li>
             <li class="pe-2"><a href="#policy">Policy</a></li>
             <li class="pe-2"><a href="#fees">Fees</a></li>
             <li><a href="#faq">FAQ</a></li>
           </ul>
+        </div>
       </div>
-      <div class="row text-center pt-3 ">
+    <!-- process -->
+    <div id="process" class="container-fluid pb-5  bg-white">
+
+      <div class="row text-center pt-3">
         <div class="col">
           <h2 class="display-6">Our process is simple.</h2>
         </div>
       </div>
-      <div class="row text-center pt-3 pb-5 get-involved-card g-4">
-        <div class="col-12 col-md card-border me-4 rounded py-4 d-flex align-items-stretch process-card">
-          <div class="process-num">
-            <h2 class="py-2 px-3 text-white ">1</h2>
+      <div class="row text-center pt-3 pb-5 get-involved-card g-5 justify-content-center">
+        <div class="col-12 col-md-6 col-lg mx-1 card-border rounded py-4 d-flex align-items-stretch process-card">
+          <div class="process-num d-flex align-items-center justify-content-center ">
+            <h2 class="text-white my-auto">1</h2>
           </div>
-          <div class="process-text">
+          <div class="process-text text-center">
             <h4 class="mt-2">Find</h4>
             <p class="px-2 ">Just getting started? Explore adoptable animals online and find someone you would like to meet. If you have questions about an animal, <a href="../about/contact-us.html">contact us</a>.</p>
           </div>
-          <a class="mt-auto process-link" href="">Adoptable Animals</a>
+          <a class="mt-auto process-link" href="">Adoptable animals</a>
         </div>
-        <div class="col-12 col-md card-border me-4 rounded py-4 d-flex align-items-stretch process-card">
-          <div class="process-num">
-            <h2 class="py-2 px-3 text-white">2</h2>
+        <div class="col-12 col-md-6 col-lg mx-1 card-border rounded py-4 d-flex align-items-stretch process-card">
+          <div class="process-num d-flex align-items-center justify-content-center">
+            <h2 class="text-white my-auto">2</h2>
           </div>
-          <div class="process-text">
+          <div class="process-text text-center">
             <h4 class="mt-2">Apply</h4>
             <p class="px-2 ">Next, fill out an adoption application so we can get to know you a bit and make sure you are matched with a companion that is perfect for you.</p>
           </div>
           <a class="mt-auto" href="">Adoption application</a>
         </div>
-        <div class="col-12 col-md card-border me-4 rounded py-4 d-flex align-items-stretch process-card">
-          <div class="process-num">
-            <h2 class="py-2 px-3 text-white">3</h2>
+        <div class="col-12 col-md-6 col-lg mx-1 card-border rounded py-4 d-flex align-items-stretch process-card">
+          <div class="process-num d-flex align-items-center justify-content-center">
+            <h2 class="text-white my-auto">3</h2>
           </div>
-          <div class="process-text">
+          <div class="process-text text-center">
             <h4 class="mt-2">Meet</h4>
             <p class="px-2 ">Schedule time to visit us and meet your potential housemate. Come in, get to know them and make sure you are compatible.</p>
           </div>
           <a class="mt-auto" href="">Contact us</a>
       </div>
-        <div class="col-12 col-md card-border rounded py-4 d-flex align-items-stretch process-card">
-          <div class="process-num">
-            <h2 class="py-2 px-3 text-white">4</h2>
+        <div class="col-12 col-md-6 col-lg mx-1 card-border rounded py-4 d-flex align-items-stretch process-card">
+          <div class="process-num d-flex align-items-center justify-content-center">
+            <h2 class="text-white my-auto">4</h2>
           </div>
-          <div class="process-text">
+          <div class="process-text text-center">
             <h4 class="mt-2">Love</h4>
             <p class="px-2 ">You are ready to adopt! Finish up the process with us in-person and head home with your new friend. We love a happy ending, don't forget to send pics!</p>
           </div>
@@ -125,75 +149,84 @@
 
     <!-- policies -->
     <div id="policy" class="container-fluid py-5">
-      <div class="row py-5">
-        <div class="col-12 col-md my-auto ">
+      <div class="row py-5 text-center d-flex justify-content-center policy-heading">
+        <div class=" my-auto ">
           <h2 class="display-6">A few policies to know.</h2>
           <p>We don't want to put up barriers, we want an empty shelter and forever homes. Our policies will help set you up for success on your new journey.
             If you have questions about any of our policies, please <a href="../about/contact-us.html">contact us</a>!</p>
         </div>
-        <div class="col-12 col-md">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Rental Agreement
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl suscipit adipiscing bibendum est ultricies integer. Sed blandit libero volutpat sed cras ornare arcu dui vivamus.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Spay &amp; Neuter
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl suscipit adipiscing bibendum est ultricies integer. Sed blandit libero volutpat sed cras ornare arcu dui vivamus.                        </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Annual Checkups
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl suscipit adipiscing bibendum est ultricies integer. Sed blandit libero volutpat sed cras ornare arcu dui vivamus.                        </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  Follow up support
-                </button>
-              </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl suscipit adipiscing bibendum est ultricies integer. Sed blandit libero volutpat sed cras ornare arcu dui vivamus.                        </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingFive">
-                <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  Commitment to love
-                </button>
-              </h2>
-              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl suscipit adipiscing bibendum est ultricies integer. Sed blandit libero volutpat sed cras ornare arcu dui vivamus.                        </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
       </div>
+        <div class="row policy-body">
+
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="dog-policy-tab" data-bs-toggle="tab" data-bs-target="#dog-policy" type="button" role="tab" aria-controls="home" aria-selected="true">Dog policy</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="cat-policy-tab" data-bs-toggle="tab" data-bs-target="#cat-policy" type="button" role="tab" aria-controls="profile" aria-selected="false">Cat policy</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active p-3" id="dog-policy" role="tabpanel" aria-labelledby="home-tab">
+              <div>
+                <h6>Adopting a dog?</h6>
+                <p class="small">Prior to adoption, we crate train our dogs and teach them basic commands. We strongly encourage adoptive families to continue with obedience training.</p>
+
+              </div>
+              <div>
+                <h6>Rental Agreement</h6>
+                <p class="small">Whether you are renting or are subject to association rules, you must be allowed to have cats or dogs in your home.</p>
+              </div>
+              <div>
+                <h6>Spay & Neuter</h6>
+                <p class="small">If the animal you are adopting has not been spayed or neutered before you guys head home, you agree to get it done.</p>
+              </div>
+              <div>
+                <h6>Annual Checkups</h6>
+                <p class="small">When you adopt, you are agreeing to take responsibilty of your animal's continued health and wellness. Including annual checkups and appropriate vaccinations.</p>
+              </div>
+              <div>
+                <h6>Follow up support</h6>
+                <p class="small">We want to ensure that a forever home is a happy home. We will be checking in occasionally to make sure you guys have settled in, things are running smoothly and to help you with any adjustments.</p>
+              </div>
+              <div>
+                <h6>Commitment to love</h6>
+                <p class="small">Your newly adopted pet should be loved and welcomed as a new member of your family.</p>
+              </div>
+            </div>
+            <div class="tab-pane fade p-3" id="cat-policy" role="tabpanel" aria-labelledby="profile-tab">
+              <div>
+                <h6>Adopting a cat?</h6>
+                <p class="small">Your cat/kitten should be indoors at all times unless they are on a leash and accompanied by you.</p>
+
+              </div>
+              <div>
+                <h6>Rental Agreement</h6>
+                <p class="small">Whether you are renting or are subject to association rules, you must be allowed to have cats or dogs in your home.</p>
+              </div>
+              <div>
+                <h6>Spay & Neuter</h6>
+                <p class="small">If the animal you are adopting has not been spayed or neutered before you guys head home, you agree to get it done.</p>
+              </div>
+              <div>
+                <h6>Annual Checkups</h6>
+                <p class="small">When you adopt, you are agreeing to take responsibilty of your animal's continued health and wellness. Including annual checkups and appropriate vaccinations.</p>
+              </div>
+              <div>
+                <h6>Follow up support</h6>
+                <p class="small">We want to ensure that a forever home is a happy home. We will be checking in occasionally to make sure you guys have settled in, things are running smoothly and to help you with any adjustments.</p>
+              </div>
+              <div>
+                <h6>Commitment to love</h6>
+                <p class="small">Your newly adopted pet should be loved and welcomed as a new member of your family.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+
     </div>
+    </div>
+
 
     <!-- fees -->
     <div id="fees" class="container-fluid bg-white p-5">
@@ -226,79 +259,86 @@
 
     <!-- faq -->
     <div id="faq" class="container py-5">
-      <div class="row text-center mb-3 pt-3"><h2 class="display-6">Explore frequently asked questions.</h2></div>
-      <div class="row w-75 mx-auto pb-5">
-        <div class="accordion" id="accordionExample1">
+      <div class="row text-center mb-5 pt-3"><h2 class="display-6">Explore frequently asked questions.</h2></div>
+      <div class="row faq-accordian pb-5">
+        <div class="accordion " id="accordionExample1">
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne1">
-              <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <h5 class="accordion-header" id="headingOne1">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
                 Why do you have adoption fees?
               </button>
-            </h2>
-            <div id="collapseOne1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl suscipit adipiscing bibendum est ultricies integer. Sed blandit libero volutpat sed cras ornare arcu dui vivamus.
+            </h5>
+            <div id="collapseOne1" class="accordion-collapse collapse" aria-labelledby="headingOne1" data-bs-parent="#accordionExample">
+              <div class="accordion-body small">
+                Adoption fees are used to help defray the costs of veterinary exams, age-appropriate vaccinations, spaying/neutering, and obedience training.
               </div>
             </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo1">
-              <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <h5 class="accordion-header" id="headingTwo1">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo1">
                 Who makes adoption decisions?
               </button>
-            </h2>
-            <div id="collapseTwo1" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl suscipit adipiscing bibendum est ultricies integer. Sed blandit libero volutpat sed cras ornare arcu dui vivamus.                        </div>
+            </h5>
+            <div id="collapseTwo1" class="accordion-collapse collapse" aria-labelledby="headingTwo1" data-bs-parent="#accordionExample">
+              <div class="accordion-body small">
+                The shelter manager and/or a shelter staff member with input from foster parent(s), if the dog/puppy is currently placed in a foster home, makes all final adoption decisions.
+              </div>
             </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree1">
-              <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <h5 class="accordion-header" id="headingThree1">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree1" aria-expanded="false" aria-controls="collapseThree1">
                 Who can adopt puppies?
               </button>
-            </h2>
-            <div id="collapseThree1" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            </h5>
+            <div id="collapseThree1" class="accordion-collapse collapse" aria-labelledby="headingThree1" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl suscipit adipiscing bibendum est ultricies integer. Sed blandit libero volutpat sed cras ornare arcu dui vivamus.                        </div>
+                We limit the adoption of puppies to adoptive families with children older than the age of four. We will not adopt to a family that doesn't have at least one family member home throughout the day and/or that currently owns a cat or dog that is not spayed.
+              </div>
             </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFour1">
-              <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <h5 class="accordion-header" id="headingFour1">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour1" aria-expanded="false" aria-controls="collapseFour1">
                 What should I consider when I'm thinking about adopting a dog or puppy?
               </button>
-            </h2>
-            <div id="collapseFour1" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            </h5>
+            <div id="collapseFour1" class="accordion-collapse collapse" aria-labelledby="headingFour1" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl suscipit adipiscing bibendum est ultricies integer. Sed blandit libero volutpat sed cras ornare arcu dui vivamus.                        </div>
+                You should consider the size and age of the dog, but also its temperament and compatibility. You should also consider energy level and whether the dog has any special needs. Do a little research before falling in love with a dog at the shelter so that you know the dog will be right for you and your family's lifestyle. Remember, adoption is a lifelong commitment.
             </div>
           </div>
+
+        </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFive1">
-              <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <h5 class="accordion-header" id="headingFive1">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive1" aria-expanded="false" aria-controls="collapseFive1">
                 Who can adopt kittens?
               </button>
-            </h2>
-            <div id="collapseFive1" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+            </h5>
+            <div id="collapseFive1" class="accordion-collapse collapse" aria-labelledby="headingFive1" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl suscipit adipiscing bibendum est ultricies integer. Sed blandit libero volutpat sed cras ornare arcu dui vivamus.                        </div>
-            </div>
+                We limit the adoption of kittens to adoptive families with children over the age of six. If a family has children under the age of six, an adult cat must be selected for adoption. We have this policy because kittens are fragile and may be accidentally injured by small children. Also, we don't want children to be scratched by a kitten and develop an unnatural fear of felines
+              </div>
           </div>
+
+      </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingSix1">
-              <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            <h5 class="accordion-header" id="headingSix1">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix1" aria-expanded="false" aria-controls="collapseSix1">
                 Why are kittens adopted in pairs?
               </button>
-            </h2>
-            <div id="collapseSix1" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+            </h5>
+            <div id="collapseSix1" class="accordion-collapse collapse" aria-labelledby="headingSix1" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl suscipit adipiscing bibendum est ultricies integer. Sed blandit libero volutpat sed cras ornare arcu dui vivamus.                        </div>
-            </div>
+                Unless an adoptive family already has a kitten that is close in age to an adopted kitten, we require the adoption of kittens in pairs. Cats are social animals and though they love their humans, they also require feline companionship to prevent loneliness, depression and/or destructive behavior.
+              </div>
           </div>
-        </div>
-      </div>
     </div>
+        </div><!-- /.accordian-->
+      </div><!-- /.row-->
+    </div><!-- /.container-->
 
     <!-- contact -->
     <div class="container-fluid py-5 bg-white text-center d-flex align-items-center justify-content-center">
@@ -309,7 +349,7 @@
     </div>
 
   </main>
-  <footer class="container-fluid">
+  <footer class="container-fluid process-footer">
     <div class="row ">
       <div class="col-12 col-md order-md-2 col-lg-5 footer-donate py-5 tan-triangle">
         <form class="container-fluid ">
@@ -348,7 +388,7 @@
           <img id="footer-logo" class="ms-0 align-self-center" src="../assets/logo-blk.png" alt="Fur Friends Logo"/>
           <div class=" d-flex flex-row align-items-center mt-2 footer-quick-links">
             <ul class="list-unstyled mt-2 d-flex flex-row">
-              <li class="me-2"><h5><a href="#" class="text-decoration-none">Adopt</a></h5></li>
+              <li class="me-2"><h5><a href="adopt.html" class="text-decoration-none">Adopt</a></h5></li>
               <li class="me-2"><h5><a href="../volunteer/volunteer.html" class="text-decoration-none">Volunteer</a></h5></li>
               <li class="me-2"><h5><a href="../about/about.html" class="text-decoration-none">About</a></h5></li>
               <li><h5><a href="../news/news.html" class="text-decoration-none">News</a></h5></li>
@@ -357,7 +397,7 @@
         </div>
 
         <div class="row d-flex flex-column align-items-center">
-          <h5 class="mb-2 fw-bold text-center">Contact</h5>
+          <h5 class="mb-2 fw-bold text-center"><a href="../about/contact-us.html">Contact</a></h5>
           <ul class="list-unstyled d-flex flex-column align-items-start">
             <li><i class="bi bi-telephone me-3"></i>802-878-1758</li>
             <li class="mt-1"><i class="bi bi-envelope me-3"></i>adopt@furfriends.org</li>

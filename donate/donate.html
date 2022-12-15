@@ -52,14 +52,18 @@
     <!-- donate banner -->
 
 
-<main class="container-fluid">
+<main class="container-fluid px-0">
 
+
+    <div class="container-fluid donate">
         <div class="row">
-            <div class="col h-100 my-auto text-center">
-                <h3>We wouldn't be here without our supporters.</h3>
-                <p class="lead">Make an impact today.</p>
+            <div class="col-12 col-lg h-100 my-auto text-center donate-header py-5">
+                <div>
+                    <img src="../assets/thank-you.svg">
+                    <h1 class="mt-3">We wouldn't be here without <span class="text-white">you</span>.</h1>
+                </div>
             </div>
-            <div class="col">
+            <div class="col-12 col-lg donate-form py-5">
                 <div class="text-dark">
                     <form class="container w-75 mx-auto my-5">
                         <div class="row align-items-center">
@@ -75,8 +79,8 @@
                                     <button class="btn btn-outline-dark bg-white form-control" type="button">$100</button>
                                 </div>
                                 <div class="input-group mb-3 border-dark ">
-                                    <span class=" input-group-text border-dark bg-white">$</span>
-                                    <input type="text" class="form-control border-dark bg-white" placeholder="Enter Amount" aria-label="Amount (to the nearest dollar)">
+                                    <span class=" input-group-text  bg-white">$</span>
+                                    <input type="text" class="form-control  bg-white" placeholder="Enter Amount" aria-label="Amount (to the nearest dollar)">
                                 </div>
                             </div>
                             <div class="row">
@@ -94,42 +98,48 @@
                 </div>
             </div>
         </div>
-    <!-- donate form -->
-    <!-- ways to donate -->
-    <div class="container">
-        <div class="row">
-            <div class="col text-center">
-                <h3>Ways to donate.</h3>
-            </div>
-        </div>
-        <div class="row text-center">
-            <div class="col">
-                <h3 class="mt-2">Sponsor.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus quis varius quam quisque id diam.</p>
-                <a href="">Contact volunteer program &gt;</a>
-            </div>
-            <div class="col">
-                <h3 class="mt-2">Supplies.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus quis varius quam quisque id diam.</p>
-                <a href="">Contact fundraising &gt;</a>
-            </div>
-            <div class="col">
-                <h3 class="mt-2">Time.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus quis varius quam quisque id diam.</p>
-                <a href="">Contact foster care &gt;</a>
-            </div>
-        </div>
     </div>
+    <!-- donate form -->
+
     <!-- contact -->
     <div class="container-fluid py-5 bg-white text-center d-flex align-items-center justify-content-center">
         <div class="contact-card p-5 my-5">
-            <h3 class="mb-3">Have more questions?</h3>
+            <h3 class="mb-3">Have questions?</h3>
             <a class="btn btn-styles" href="../about/contact-us.html" role="button">Contact Us</a>
         </div>
     </div>
 </main>
 
-<footer>
+<footer class="container-fluid process-footer">
+    <div class="row ">
+
+        <div class=" pt-5 d-flex flex-column align-items-center footer-contact">
+            <div class="row d-flex flex-column align-items-center ">
+                <img id="footer-logo" class="ms-0 align-self-center" src="../assets/logo-blk.png" alt="Fur Friends Logo"/>
+                <div class=" d-flex flex-row align-items-center mt-2 footer-quick-links">
+                    <ul class="list-unstyled mt-2 d-flex flex-row">
+                        <li class="me-2"><h5><a href="../adopt/adopt.html" class="text-decoration-none">Adopt</a></h5></li>
+                        <li class="me-2"><h5><a href="../volunteer/volunteer.html" class="text-decoration-none">Volunteer</a></h5></li>
+                        <li class="me-2"><h5><a href="../about/about.html" class="text-decoration-none">About</a></h5></li>
+                        <li><h5><a href="../news/news.html" class="text-decoration-none">News</a></h5></li>
+                    </ul>
+                </div> <!-- /.col -->
+            </div>
+
+            <div class="row d-flex flex-column align-items-center">
+                <h5 class="mb-2 fw-bold text-center"><a href="../about/contact-us.html">Contact</a></h5>
+                <ul class="list-unstyled d-flex flex-column align-items-start">
+                    <li><i class="bi bi-telephone me-3"></i>802-878-1758</li>
+                    <li class="mt-1"><i class="bi bi-envelope me-3"></i>adopt@furfriends.org</li>
+                    <li class="clearfix mt-1 "><i class="bi bi-geo-alt me-3"></i><p class="float-end ">264 Browns River Road<br>Essex, Vermont</p></li>
+                </ul>
+            </div>
+            <div class="row text-center mt-auto w-100 pb-3">
+                <hr>
+                <small>© 2022 Fur Friends | 503(c) not-for-profit organization</small>
+            </div>
+        </div> <!-- /.col -->
+    </div>
 
 </footer>
 </body>
