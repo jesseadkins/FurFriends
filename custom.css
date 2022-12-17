@@ -221,11 +221,7 @@ footer {
     width: 100px;
 }
 
-.featured-pet-header h2 {
-    width: 75%;
-    margin: 0 auto;
-    /*position: relative;*/
-}
+
 
 .featured-right,
 .featured-left {
@@ -237,12 +233,35 @@ footer {
 .pet-card {
     border: 1px solid var(--grey);
     max-width: 300px;
-    border-radius: 5px;
+    border-radius: 20px;
     /*box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;*/
 }
 
 .pet-card img {
-    border-radius: 0;
+    border-radius: 5px;
+}
+
+.pet-description{
+    margin: 10px;
+}
+
+.gender-label,
+.age-label,
+.breed-label {
+    margin-bottom: 0;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: var(--drk-teal);
+    font-weight: bold;
+    justify-content: flex-end;
+}
+
+.gender,
+.age,
+.breed {
+    margin-bottom: 0;
+    color: var(--lt-orange);
+    justify-content: flex-start;
 }
 
 .get-involved-card,
@@ -523,7 +542,7 @@ footer {
 .contact-card {
     background-color: var(--lt-tan);
     border: 1px solid var(--grey);
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 /*** VOLUNTEER STYLES ***/
@@ -542,7 +561,7 @@ footer {
 
 .volunteer-card {
 
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: var(--lt-tan);
     border: 1px solid var(--grey);
     /*box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;*/
@@ -658,7 +677,7 @@ footer {
 .contact-form {
     background-color: #fff;
     border: 1px solid var(--grey);
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .contact-section{
@@ -694,7 +713,7 @@ footer {
     margin: 0 auto;
     background-color: #fff;
     border: 1px solid var(--grey);
-    border-radius: 5px;
+    border-radius: 20px;
     /*box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;*/
 }
 
@@ -721,7 +740,7 @@ footer {
 
 .blog-contents {
     border: 1px solid var(--grey);
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: var(--lt-tan);
 }
 
@@ -821,10 +840,7 @@ footer {
         margin: 0 auto;
     }
 
-    .featured-pet-header h2 {
-        width: 50%;
-        margin: 0 auto;
-    }
+
 
 
     .get-involved-card {

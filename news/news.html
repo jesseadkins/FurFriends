@@ -70,7 +70,7 @@
         <div class="col col-lg-9 container-fluid py-5 recent-posts">
           <div class="row recent-post-title px-0"><h2 class="display-6 px-0">Recent posts.</h2></div>
           <div class="row pt-5 pb-0 g-4 d-flex flex-column blog-posts">
-            <div class="col card-border rounded p-4 d-flex align-items-stretch blog-post-card mb-3">
+            <div class="col card-border rounded-4 p-4 d-flex align-items-stretch blog-post-card mb-3">
               <img class="" src="img/cat-under-tree-card.png" class="" alt="dog hiding under blanket">
               <div class="d-flex flex-column">
                 <h4 class="mt-2">4 questions to answer before you adopt a pet during the holidays</h4>
@@ -78,7 +78,7 @@
                 <p>The holidays are an exciting time and it is completely understandable wanting to expand your family with the addition of a furry friend. Who wouldn’t want to wake up to a new pet under the tree?...<a href="4-questions-to-answer.html">read more</a></p>
               </div>
             </div>
-            <div class="col card-border rounded p-4 d-flex align-items-stretch blog-post-card mb-3">
+            <div class="col card-border rounded-4 p-4 d-flex align-items-stretch blog-post-card mb-3">
               <img class="" src="../assets/blog-winter-tips.png" class="" alt="dog hiding under blanket">
               <div class="d-flex flex-column">
                 <h4 class="mt-2">Winter pet care tips</h4>
@@ -86,7 +86,7 @@
                 <p>Just as we humans change our habits in the winter, pets need the same consideration to stay warm and happy. Nobody wants to be out in the cold and not prepared!...<a href="">read more</a></p>
               </div>
             </div>
-            <div class="col card-border rounded p-4 d-flex align-items-stretch blog-post-card mb-3">
+            <div class="col card-border rounded-4 p-4 d-flex align-items-stretch blog-post-card mb-3">
               <img class="" src="../assets/blog-travel-tips.png" class="" alt="dog hiding under blanket">
               <div class="d-flex flex-column">
                 <h4 class="mt-2">Tips for traveling with your pet</h4>
@@ -115,16 +115,21 @@
             <h4 class="mb-3">Featured Pets</h4>
             <!-- pet card -->
             <div class="mb-3">
-              <div class="card px-3 bg-white pet-card px-0 mx-auto">
-                <h4 class="card-title text-center mt-2">Duke</h4>
-                <img src="../adopt/img/dogs/duke-adult.png" class="card-img-top" alt="Dog laying on porch">
-                <div class="card-body p-0 ">
-                  <ul class="list-group list-group-horizontal text-nowrap d-flex justify-content-center w-75 mx-auto">
-                    <li class="list-group-item border-0 p-0 me-3 d-flex mt-3"><img class="me-2" alt="paw icon" height="22" src="../assets/paw-icon.svg"><p>Male</p></li>
-                    <li class="list-group-item border-0 p-0 d-flex mt-3"><img class="me-2" alt="paw icon" height="20" src="../assets/age-icon.svg"><p>Adult</p></li>
+              <div class="card px-3 bg-white pet-card px-0 ">
+
+                <div class="d-flex flex-row justify-content-center align-items-center"><img class="me-2" alt="paw icon" height="24" src="../assets/dog-icon.svg">
+                  <h4 class="card-title text-center mt-2">Duke</h4></div>
+                <img src="../adopt/img/dogs/duke-adult.png" class="card-img-top" alt="dog outside looking at camera">
+                <div class="card-body p-0 d-flex flex-column">
+                  <ul class="list-group  d-flex justify-content-center align-items-stretch pet-description">
+                    <li class="list-group-item border-0 p-0 d-flex "><p class="gender-label">Gender:</p><p class="gender">Male</p></li>
+                    <li class="list-group-item border-0 p-0 d-flex"><p class="age-label">Age:</p><p class="age">11 years</p></li>
+                    <li class="list-group-item border-0 p-0 d-flex"><p class="breed-label">Breed:</p><p class="breed">Great Pyrenees Mix</p></li>
                   </ul>
-                  <div class="container mb-2 text-center">
+                  <div class="container mb-2 mt-auto text-center">
+                    <hr>
                     <div class="row mb-2 d-inline-block">
+
                       <a href="#" class="btn d-block btn-styles text-nowrap mb-0 py-1">Meet</a>
                     </div>
                   </div>
@@ -133,16 +138,21 @@
             </div>
             <!-- pet card -->
             <div class="mb-3">
-              <div class="card px-3 bg-white pet-card px-0 mx-auto">
-                <h4 class="card-title text-center mt-2">Joey</h4>
-                <img src="../adopt/img/cats/joey-adult.png" class="card-img-top" alt="Dog laying on porch">
-                <div class="card-body p-0 ">
-                  <ul class="list-group list-group-horizontal text-nowrap d-flex justify-content-center w-75 mx-auto">
-                    <li class="list-group-item border-0 p-0 me-3 d-flex mt-3"><img class="me-2" alt="paw icon" height="22" src="../assets/paw-icon.svg"><p>Male</p></li>
-                    <li class="list-group-item border-0 p-0 d-flex mt-3"><img class="me-2" alt="paw icon" height="20" src="../assets/age-icon.svg"><p>Adult</p></li>
+              <div class="card px-3 bg-white pet-card px-0 ">
+
+                <div class="d-flex flex-row justify-content-center align-items-center"><img class="me-2" alt="paw icon" height="24" src="../assets/cat-icon.svg">
+                  <h4 class="card-title text-center mt-2">Joey</h4></div>
+                <img src="../adopt/img/cats/joey-adult.png" class="card-img-top" alt="dog outside looking at camera">
+                <div class="card-body p-0 d-flex flex-column">
+                  <ul class="list-group  d-flex justify-content-center align-items-stretch pet-description">
+                    <li class="list-group-item border-0 p-0 d-flex "><p class="gender-label">Gender:</p><p class="gender">Male</p></li>
+                    <li class="list-group-item border-0 p-0 d-flex"><p class="age-label">Age:</p><p class="age">5 years</p></li>
+                    <li class="list-group-item border-0 p-0 d-flex"><p class="breed-label">Breed:</p><p class="breed">Maine Coon</p></li>
                   </ul>
-                  <div class="container mb-2 text-center">
+                  <div class="container mb-2 mt-auto text-center">
+                    <hr>
                     <div class="row mb-2 d-inline-block">
+
                       <a href="#" class="btn d-block btn-styles text-nowrap mb-0 py-1">Meet</a>
                     </div>
                   </div>
@@ -164,19 +174,19 @@
         </div>
       </div>
       <div class="row text-center py-3 get-involved-card g-4">
-        <div class="col-12 col-sm card-border me-4 rounded py-4 d-flex flex-column align-items-stretch">
+        <div class="col-12 col-sm card-border me-4 rounded-4 py-4 d-flex flex-column align-items-stretch">
           <img src="../assets/adopt-icon.svg" alt="paw icon" height="48">
           <h4 class="mt-2">Adopt</h4>
           <p class="px-2 ">Make your home and your heart a little more full with a new fur friend.</p>
           <a class="mt-auto" href="">Learn more</a>
         </div>
-        <div class="col-12 col-sm card-border me-4 rounded py-4 d-flex flex-column align-items-stretch">
+        <div class="col-12 col-sm card-border me-4 rounded-4 py-4 d-flex flex-column align-items-stretch">
           <img src="../assets/volunteer-icon.svg" alt="paw icon" height="48">
           <h4 class="mt-2">Volunteer</h4>
           <p class="px-2">Volunteers are at the heart of our shelter and vital to helping us on our mission.</p>
           <a class="mt-auto" href="">Learn more</a>
         </div>
-        <div class="col-12 col-sm card-border rounded py-4 d-flex flex-column align-items-stretch">
+        <div class="col-12 col-sm card-border rounded-4 py-4 d-flex flex-column align-items-stretch">
           <img src="../assets/donate-icon.svg" alt="paw icon" height="48">
           <h4 class="mt-2">Donate</h4>
           <p class="px-2">Fur Friends would not be possible without the kindness of our generous supporters.</p>

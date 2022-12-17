@@ -74,7 +74,7 @@
 
   <main class="">
   <!-- mission -->
-      <div class="container-fluid bg-white py-5 my-5">
+      <div class="container-fluid bg-white py-5">
           <div class="row home-mission py-5 bg-white">
               <div class="col-12 col-md-5 order-md-2 my-auto text-center home-mission-col">
                   <img src="assets/home-mission.png" class="img-fluid home-mission-img">
@@ -93,40 +93,52 @@
 
   <!-- featured pets -->
       <div class="container-fluid py-5">
+          <div class="featured-pet-header d-flex align-items-center justify-content-center text-center ">
+              <h2 class="display-6 mb-3">Meet our featured pets.</h2>
+          </div>
           <div class="row g-4 featured-pet-section">
-              <div class="col-sm-12 col-md-12 col-lg featured-pet-header d-flex align-items-center justify-content-center text-center ">
-                <h2 class="display-6">Meet our featured pets.</h2>
-              </div>
+
               <!-- pet card -->
-              <div class="col-sm-5 offset-sm-1 offset-md-0 col-md col-lg featured-left">
-                  <div class="card px-3 bg-white pet-card ">
-                      <h4 class="card-title text-center mt-2">Duke</h4>
-                      <img src="adopt/img/dogs/duke-adult.png" class="card-img-top" alt="Dog laying on porch">
-                      <div class="card-body p-0 ">
-                          <ul class="list-group list-group-horizontal text-nowrap d-flex justify-content-center w-75 mx-auto">
-                              <li class="list-group-item border-0 p-0 me-3 d-flex mt-3"><img class="me-2" alt="paw icon" height="22" src="assets/paw-icon.svg"><p>Male</p></li>
-                              <li class="list-group-item border-0 p-0 d-flex mt-3"><img class="me-2" alt="paw icon" height="20" src="assets/age-icon.svg"><p>Adult</p></li>
+              <div class="col d-flex justify-content-end align-items-stretch">
+                  <div class="card px-3 bg-white pet-card px-0 ">
+
+                      <div class="d-flex flex-row justify-content-center align-items-center"><img class="me-2" alt="paw icon" height="24" src="assets/dog-icon.svg">
+                          <h4 class="card-title text-center mt-2">Duke</h4></div>
+                      <img src="adopt/img/dogs/duke-adult.png" class="card-img-top" alt="dog outside looking at camera">
+                      <div class="card-body p-0 d-flex flex-column">
+                          <ul class="list-group  d-flex justify-content-center align-items-stretch pet-description">
+                              <li class="list-group-item border-0 p-0 d-flex "><p class="gender-label">Gender:</p><p class="gender">Male</p></li>
+                              <li class="list-group-item border-0 p-0 d-flex"><p class="age-label">Age:</p><p class="age">11 years</p></li>
+                              <li class="list-group-item border-0 p-0 d-flex"><p class="breed-label">Breed:</p><p class="breed">Great Pyrenees Mix</p></li>
                           </ul>
-                          <div class="container mb-2 text-center">
+                          <div class="container mb-2 mt-auto text-center">
+                              <hr>
                               <div class="row mb-2 d-inline-block">
+
                                   <a href="#" class="btn d-block btn-styles text-nowrap mb-0 py-1">Meet</a>
                               </div>
                           </div>
                       </div>
                   </div> <!-- /.card -->
               </div>
+
               <!-- pet card -->
-              <div class="col-sm-5 col-md col-lg featured-right">
-                  <div class="card px-3 bg-white pet-card ">
-                      <h4 class="card-title text-center mt-2">Joey</h4>
-                      <img src="adopt/img/cats/joey-adult.png" class="card-img-top" alt="Dog laying on porch">
-                      <div class="card-body p-0 ">
-                          <ul class="list-group list-group-horizontal text-nowrap d-flex justify-content-center w-75 mx-auto">
-                              <li class="list-group-item border-0 p-0 me-3 d-flex mt-3"><img class="me-2" alt="paw icon" height="22" src="assets/paw-icon.svg"><p>Male</p></li>
-                              <li class="list-group-item border-0 p-0 d-flex mt-3"><img class="me-2" alt="paw icon" height="20" src="assets/age-icon.svg"><p>Adult</p></li>
+              <div class="col d-flex justify-content-start align-items-stretch">
+                  <div class="card px-3 bg-white pet-card px-0 ">
+
+                      <div class="d-flex flex-row justify-content-center align-items-center"><img class="me-2" alt="paw icon" height="24" src="assets/cat-icon.svg">
+                          <h4 class="card-title text-center mt-2">Joey</h4></div>
+                      <img src="adopt/img/cats/joey-adult.png" class="card-img-top" alt="dog outside looking at camera">
+                      <div class="card-body p-0 d-flex flex-column">
+                          <ul class="list-group  d-flex justify-content-center align-items-stretch pet-description">
+                              <li class="list-group-item border-0 p-0 d-flex "><p class="gender-label">Gender:</p><p class="gender">Male</p></li>
+                              <li class="list-group-item border-0 p-0 d-flex"><p class="age-label">Age:</p><p class="age">5 years</p></li>
+                              <li class="list-group-item border-0 p-0 d-flex"><p class="breed-label">Breed:</p><p class="breed">Maine Coon</p></li>
                           </ul>
-                          <div class="container mb-2 text-center">
+                          <div class="container mb-2 mt-auto text-center">
+                              <hr>
                               <div class="row mb-2 d-inline-block">
+
                                   <a href="#" class="btn d-block btn-styles text-nowrap mb-0 py-1">Meet</a>
                               </div>
                           </div>
@@ -137,27 +149,27 @@
       </div>
 
   <!-- get involved -->
-      <div class="container-fluid my-5 py-5 bg-white">
-          <div class="row text-center pt-5">
+      <div class="container-fluid  py-5 bg-white">
+          <div class="row text-center">
               <div class="col">
                   <h2 class="display-6">Lend a Paw.</h2>
                   <p class="lead">It takes a village and we want you to be a part of ours.</p>
               </div>
           </div>
-          <div class="row text-center pb-5 get-involved-card g-4">
-              <div class="col-12 col-sm card-border me-4 rounded py-4 d-flex flex-column align-items-stretch ">
+          <div class="row text-center pb-3 get-involved-card g-4">
+              <div class="col-12 col-sm card-border me-4 rounded-4 py-4 d-flex flex-column align-items-stretch ">
                   <img src="assets/adopt-icon.svg" alt="paw icon" height="48">
                   <h4 class="mt-2">Adopt</h4>
                   <p class="px-2 ">Make your home and your heart a little more full with a new fur friend.</p>
                   <a class="mt-auto" href="adopt/adopt.html">Learn more</a>
               </div>
-              <div class="col-12 col-sm card-border me-4 rounded py-4 d-flex flex-column align-items-stretch ">
+              <div class="col-12 col-sm card-border me-4 rounded-4 py-4 d-flex flex-column align-items-stretch ">
                   <img src="assets/volunteer-icon.svg" alt="paw icon" height="48">
                   <h4 class="mt-2">Volunteer</h4>
                   <p class="px-2">Volunteers are at the heart of our shelter and vital to helping us on our mission.</p>
                   <a class="mt-auto" href="volunteer/volunteer.html">Learn more</a>
               </div>
-              <div class="col-12 col-sm card-border rounded py-4 d-flex flex-column align-items-stretch ">
+              <div class="col-12 col-sm card-border rounded-4 py-4 d-flex flex-column align-items-stretch ">
                   <img src="assets/donate-icon.svg" alt="paw icon" height="48">
                   <h4 class="mt-2">Donate</h4>
                   <p class="px-2">Fur Friends would not be possible without the kindness of our generous supporters.</p>
@@ -167,12 +179,12 @@
       </div>
 
   <!-- blog snippets -->
-      <div class="container-fluid py-5 mb-5 ">
+      <div class="container-fluid py-5 mb-5">
           <div class="row text-center">
             <h2 class="display-6">Read the latest.</h2>
           </div>
           <div class="row py-3  justify-content-center blog-card-section">
-              <div class="col-12 col-lg card-border rounded py-4 px-3 m-2 d-flex home-blog bg-white">
+              <div class="col-12 col-lg card-border rounded-4 py-4 px-3 m-2 d-flex home-blog bg-white">
                   <img src="news/img/cat-under-tree-card.png" class="px-2" alt="dog hiding under blanket">
                   <div class="d-flex flex-column align-items-stretch h-100 ms-2">
                       <h5 class="mt-2">4 questions to answer before you adopt a pet during the holidays</h5>
@@ -180,7 +192,7 @@
                       <a class="mt-auto ms-auto" href="news/4-questions-to-answer.html">Read</a>
                   </div>
               </div>
-              <div class="col-12 col-lg card-border rounded py-4 px-3 m-2 d-flex home-blog bg-white">
+              <div class="col-12 col-lg card-border rounded-4 py-4 px-3 m-2 d-flex home-blog bg-white">
                   <img src="assets/blog-winter-tips.png" class="px-2" alt="dog in sweater outside in snow">
                   <div class="d-flex flex-column align-items-stretch h-100 middle-card ms-2">
                       <h5 class="mt-2">Winter pet care tips</h5>
@@ -188,7 +200,7 @@
                       <a class="mt-auto ms-auto" href="">Read</a>
                   </div>
               </div>
-              <div class="col-12 col-lg card-border rounded py-4 px-3 m-2 d-flex home-blog bg-white">
+              <div class="col-12 col-lg card-border rounded-4 py-4 px-3 m-2 d-flex home-blog bg-white">
                   <img src="assets/blog-travel-tips.png" class="px-2" alt="cat laying in packed suitcase">
                   <div class="d-flex flex-column align-items-stretch h-100 ms-2">
                       <h5 class="mt-2">Tips for traveling with your pet</h5>
